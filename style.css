@@ -75,7 +75,7 @@ section > p {
   width: fit-content;
   padding: 0.75rem 1rem;
   border-radius: 0.4rem;
-  background: #480ca8;
+  background: #EB5E28;
   color: #ffffff;
   cursor: pointer;
   transition: all 400ms ease;
@@ -105,7 +105,7 @@ nav {
   z-index: 10;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #480ca8, #4cc9f0);
+  background: linear-gradient(135deg, #EB5E28, #4cc9f0);
   color: #ffffff;
   box-shadow: 0 1rem 1rem rgba(12, 3, 27, 0.1);
 }
@@ -408,78 +408,6 @@ header .container .header__content p {
     grid-template-columns: 1fr;
   }
 }
-
-/* results front */
-#results .container {
-  display: grid;
-  grid-template-columns: 47% 47%;
-  gap: 6%;
-}
-#results .container .info p {
-  margin: 0.5rem 0 2rem;
-}
-#results .container .info article {
-  display: flex;
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-#results .container .info article small {
-  margin-top: 0.4rem;
-  display: block;
-}
-#results .container .info article .info__icon {
-  background: #f72585;
-  color: #ffffff;
-  padding: 0.8rem;
-  border-radius: 50%;
-  display: flex;
-  height: -moz-fit-content;
-  height: fit-content;
-  font-size: 1.2rem;
-}
-#results .container form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.4rem;
-}
-#results .container form .form__group label {
-  font-size: 0.85rem;
-  margin-bottom: 0.4rem;
-  display: inline-block;
-  font-weight: 600;
-}
-#results .container form .form__group input, #results .container form .form__group textarea, #results .container form .form__group select {
-  background: #ffffff;
-  padding: 0.85rem 1rem;
-  display: block;
-  width: 100%;
-  border-radius: 0.4rem;
-  resize: none;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
-#results .results__hover{
-  border-radius: 1rem;
-  box-shadow: 0 1.5rem 1.5rem rgba(12, 3, 27, 0.1);
-  position: relative;
-  transition: all 700ms ease;
-}
-#results .results_hover:hover {
-  box-shadow: none;
-}
-
-@media screen and (max-width: 600px) {
-  #results .container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  #results .container .info h2, #results .container .info p {
-    text-align: center;
-  }
-}
-
-
 .swiper {
   width: 82%;
 }
